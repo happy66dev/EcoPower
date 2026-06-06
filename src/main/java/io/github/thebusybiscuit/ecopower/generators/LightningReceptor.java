@@ -69,6 +69,7 @@ public class LightningReceptor extends SlimefunItem implements EnergyNetProvider
         return 0;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public int getCapacity() {
         return 0;

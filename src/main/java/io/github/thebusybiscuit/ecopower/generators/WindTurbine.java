@@ -60,6 +60,7 @@ public class WindTurbine extends SlimefunItem implements EnergyNetProvider {
         return power;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public int getCapacity() {
         return 0;
