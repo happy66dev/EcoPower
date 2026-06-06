@@ -1,4 +1,4 @@
-# EcoPower 环保能源
+# EcoPower 环保能源 [魔改版]
 
 EcoPower 是一个 Slimefun4 附属插件。
 你需要安装 Slimefun4 才能让此插件运行。
@@ -41,3 +41,7 @@ EcoPower 注重环境友好型的可再生能源。
 
 ## 开源
 本项目以[MIT协议](/LICENSE)开源。
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy66dev/EcoPower&type=Date)](https://star-history.com/#happy66dev/EcoPower&Date)
