@@ -35,10 +35,6 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
     public void onEnable() {
         Config cfg = new Config(this);
 
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "ybw0014/EcoPower-CN/master").start();
-        }
-
         new Metrics(this, 8154);
 
         ItemStack categoryItem = new CustomItemStack(SlimefunUtils.getCustomHead("240775c3ad75763613f32f04986881bbe4eee4366d0c57f17f7c7514e2d0a77d"), "&2环保能源");
